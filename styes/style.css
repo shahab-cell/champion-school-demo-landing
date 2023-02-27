@@ -181,7 +181,7 @@ nav ul li a {
 
 #cross {
   position: relative;
-  left: 78%;
+  left: 76%;
   cursor: pointer;
 }
 /* showcase */
@@ -293,6 +293,7 @@ nav ul li a {
   }
   .secondary-section .right p {
     margin-top: 30px;
+    padding: 0;
   }
 
   .secondary-section p {
