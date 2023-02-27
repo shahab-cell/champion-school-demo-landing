@@ -295,6 +295,11 @@ nav ul li a {
     margin-top: 30px;
   }
 
+  .secondary-section p {
+    font-size: 0.9rem;
+    line-height: normal;
+  }
+
   .secondary-section .bar {
     margin-bottom: 20px;
   }
