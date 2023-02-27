@@ -255,7 +255,7 @@ nav ul li a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px;
-  /* padding: 30px 10px 40px 10px; */
+  padding: 30px 10px 40px 10px;
   margin-top: 50px;
   border-bottom: 1px solid black;
 }
@@ -288,12 +288,15 @@ nav ul li a {
 }
 
 @media (max-width: 800px) {
+  /* .secondary-section {
+    display: none;
+  } */
   .secondary-section .container {
     grid-template-columns: 1fr;
   }
   .secondary-section .right p {
     margin-top: 30px;
-    padding: 0;
+    /* padding: 0; */
   }
 
   .secondary-section .container h1 {
@@ -301,7 +304,7 @@ nav ul li a {
   }
 
   .secondary-section .container p {
-    font-size: 2px !important;
+    font-size: 0.8rem !important;
     line-height: normal;
   }
 
